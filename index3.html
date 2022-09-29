@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Bouteque</title>
+  <link rel="stylesheet" href="style3.css">
+  <script src="./Vi.js"></script>
+  <!-- 3d model settings -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src = " https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+<!-- line -->
+<div id="col">
+  <h1>the available collection</h1>
+</div>
+<!-- heading background -->
+<div id="col1">.</div>
+<!-- card1 -->
+<video id="orchid"  src="./orchid1.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card1">
+  <div class="cont1">
+  <div id="btn1" onmouseover="change1()"></div>
+  <div id="btn2" onmouseover="change2()"></div>
+  <h2>Orchid</h2>
+  <p class="price">3kd-8pieces</p>
+  <button id="btnn" type="button" onClick="onClick()">Add to Cart</button>
+  </div>
+</div>
+
+<!-- card2 -->
+<video id="rose"  src="./roses_AdobeExpress.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card2">
+ <div class="cont2">
+  <div id="btn3" onmouseover="change3()"></div>
+  <div id="btn4" onmouseover="change4()"></div>
+  <h2>Rose</h2>
+  <p class="price1">4kd-8pieces</p>
+  <button id="btnn1" onClick="onClick1()">Add to Cart</button>
+</div> 
+</div>
+
+<!-- card3 -->
+<video id="peony"  src="./peony1.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card3">
+ <div class="cont3">
+  <div id="btn5" onmouseover="change5()"></div>
+  <div id="btn6" onmouseover="change6()"></div>
+  <h2>Peony</h2>
+  <p class="price2">3kd-8pieces</p>
+  <button id="btnn2" onClick="onClick2()">Add to Cart</button>
+</div>
+</div>
+
+<!-- card4 -->
+<video id="tulip"  src="./tulip_AdobeExpress.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card4">
+ <div class="cont4">
+  <div id="btn7" onmouseover="change7()"></div>
+  <div id="btn8" onmouseover="change8()"></div>
+  <h2>Tulip</h2>
+  <p class="price3">2kd-8pieces</p>
+  <button id="btnn3" onClick="onClick3()">Add to Cart</button>
+</div>
+</div>
+
+<!-- card5 -->
+<video id="carnation"  src="./carnation_AdobeExpress.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card5">
+ <div class="cont1">
+  <div id="btn9" onmouseover="change9()"></div>
+  <div id="btn10" onmouseover="change10()"></div>
+  <h2>Carnation</h2>
+  <p class="price4">3kd-8pieces</p>
+  <button id="btnn4" onClick="onClick4()">Add to Cart</button>
+</div>
+</div>
+
+<!-- card6 -->
+<video id="lily"  src="./lily.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card6">
+ <div class="cont6">
+  <div id="btn11" onmouseover="change11()"></div>
+  <div id="btn12" onmouseover="change12()"></div>
+  <h2>Lily</h2>
+  <p class="price5">5kd-8pieces</p>
+  <button id="btnn5" onClick="onClick5()">Add to Cart</button>
+</div>
+</div> 
+
+<!-- card7 -->
+<video id="lace"  src="./lace leaf.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card7">
+ <div class="cont7">
+  <div id="btn13" onmouseover="change13()"></div>
+  <h2>Lace leaf</h2>
+  <p class="price6">2kd-8pieces</p>
+  <button id="btnn6" onClick="onClick6()">Add to Cart</button>
+</div>
+</div> 
+<!-- card8 -->
+<video id="gypsphila"  src="./gypsphila_Trim.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card8">
+ <div class="cont8">
+  <div id="btn14" onmouseover="change14()"></div>
+  <h2>Gypsophila</h2>
+  <p class="price7">3kd-8pieces</p>
+  <button id="btnn7" onClick="onClick7()">Add to Cart</button>
+</div>
+</div> 
+<!-- card9 -->
+<video id="hyacinth"  src="./hyacinth.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card9">
+ <div class="cont9">
+  <div id="btn15" onmouseover="change15()"></div>
+  <h2>Hyacinth</h2>
+  <p class="price8">5kd-8pieces</p>
+  <button id="btnn8" onClick="onClick8()">Add to Cart</button>
+</div>
+</div> 
+<!-- card10 -->
+<video id="sun_flower"  src="./sun_flower_AdobeExpress.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card10">
+ <div class="cont10">
+  <div id="btn16" onmouseover="change16()"></div>
+  <h2>Sun Flower</h2>
+  <p class="price9">6kd-8pieces</p>
+  <button id="btnn9" onClick="onClick9()">Add to Cart</button>
+</div>
+</div> 
+<!-- card11 -->
+<video id="lilac"  src="./lilac.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card11">
+ <div class="cont11">
+  <div id="btn17" onmouseover="change17()"></div>
+  <h2>Lilac</h2>
+  <p class="price10">5kd-8pieces</p>
+  <button id="btnn10" onClick="onClick10()">Add to Cart</button>
+</div>
+</div> 
+<!-- card12 -->
+<video id="narcissus"  src="./narcissus.mp4" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  alt="" width="500px" height="300px" muted  ></video>
+<div class="card12">
+ <div class="cont12">
+  <div id="btn18" onmouseover="change18()"></div>
+  <h2>Narcissus</h2>
+  <p class="price11">4kd-8pieces</p>
+  <button id="btnn11" onClick="onClick11()">Add to Cart</button>
+</div>
+</div> 
+
+<!-- wesite preview -->
+    <div class="cont">
+    <h1>Story:</h1>
+    <h4 >Maryam alwayas loved the scent and the shape<br> of flowers. She alwayas used them to relax her <br>soul from the crowded outer world. Hence, she<br> loved to let everone experience the same beautiful<br> feeling that she get when she sees a bouquet of <br>flowers. </h4>
+    <h1>Our Mission:</h1>
+    <h4 >We are presenting to our beloved coustomers a <br> vraity collections of flowers that suits every<br> mood, anniversary and and celebration. scroll <br>down to see our collection. </h4>
+    </div>
+ 
+<!-- home, contact and view cart buttons -->
+  <div class="adjust">
+  <a href="/index3.html" style="text-decoration:none;"><button class="bn" style="vertical-align:middle"><span>Home</span></button> </a>
+  <button class="bn">Contact us</button>
+  <a href="/index2.html" style="text-decoration:none;"><button class="bn" style="vertical-align:middle"><span>View Cart</span></button></a>
+  </div>
+
+<!-- scroll down arrow -->
+<div class="mouse_scroll">
+  <div class="mouse">
+    <div class="wheel"></div>
+    </div>
+  <div>
+    <a href="#col"><span class="m_scroll_arrows unu"></span></a>
+    <a href="#col"><span class="m_scroll_arrows doi"></span></a>
+    <a href="#col"><span class="m_scroll_arrows trei"></span></a>
+  </div>
+</div>
+
+<!-- footer -->
+<footer class="footer-distributed">
+  <div class="footer-left">
+    <h3><span>Maryam's Bouquet</span></h3>
+    <p class="footer-links">
+      <a href="#" class="link-1">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">Pricing</a>
+      <a href="#">About</a>
+      <a href="#">Faq</a>
+      <a href="#">Contact</a>
+    </p>
+    <p class="footer-company-name">Maryam's Bouquet 2022</p>
+  </div>
+
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Kuwait,</span> Kuwait City</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+96511111111</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">Maryam@company.com</a></p>
+    </div>
+  </div>
+
+  <div class="footer-right">
+    <p class="footer-company-about">
+      <span>About the company</span>
+      flowers store.
+    </p>
+    <div class="footer-icons">
+      <a href="#"><i class="fa fa-facebook"><img src="./icons8-facebook-32.png" alt="facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"><img src="./icons8-twitter-32.png" alt="twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"><img src="./icons8-instagram-32.png" alt="instagram"></i></a>
+      <a href="#"><i class="fa fa-github"><img src="./icons8-github-32.png" alt="github"></i></a>
+    </div>
+  </div>
+</footer>   
+
+<!-- 3d model background image and link -->
+<div id="model_background">
+  <model-viewer class="ve" alt="flower vase" src="./flowers_with_the_vase.glb" auto-rotate camera-controls ar ios-src="./flowers_with_the_vase.glb"></model-viewer>
+</div>
+</body>
+</html> 

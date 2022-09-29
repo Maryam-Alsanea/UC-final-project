@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* body */
+body{
+    background-color: #E6E8DA;
+    background-image: url(./concrete-wall\ \(1\).png);
+    
+
+}
+/* full screen background */
+div{
+    
+    background-image: url(./pexels-eva-bronzini-7641303.jpg);
+    background-repeat: no-repeat;
+    background-size: 480px 480px;
+    height: 480px;
+    width: 480px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    top:20px;
+    
+}
+/* headings */
+h1{
+    margin: 0;
+    padding-top: 25px;
+    color: #000000;
+    background-color: transparent;
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 600px;
+	text-transform: capitalize;
+	font-family: 'Dancing Script', cursive; 
+	font-size: xx-large;
+	text-shadow: rgba(163, 163, 163, 0.8) 1px 1px 4px;
+}
+/* paragraphs */
+h4{
+    margin: 0;
+    padding-top: 15px;
+    color: #e7adad;
+    background-color: transparent;
+	font-style: italic;
+	margin-left: 600px;
+	font-family: 'Dancing Script', cursive; 
+	font-size: x-large;
+	text-shadow: rgba(163, 163, 163, 0.8) 1px 1px 4px;
+    
+
+}
+/* home, contact and viewcart div */
+.ce{
+    display: inline;
+    
+}
+
+/* buttons design */
+
+button{
+  inset-inline: 0;
+  background-color: transparent;
+  border-color: transparent;
+  display: inline;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;  
+  border: none;
+	border-radius: 10px;
+	box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px  #E1DAC5, inset -5px -5px 10px #C8C1AF;
+	color: #000000;
+	font-size: 16px;
+  width: 120px;
+  height: 40px;
+  font-weight: 1000;
+  margin-left: 1100px;
+  margin-top: -10px;
+  font-family: 'Dancing Script', cursive; 
+  text-decoration: none;
+}
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+ 
+}
+
+button {
+ 
+	cursor: pointer;
+	
+	border: none;
+	border-radius: 10px;
+	box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px  #E1DAC5, inset -5px -5px 10px #C8C1AF;
+	color: #000000;
+	font-size: 16px;
+}
+
+
+button:hover {
+	box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px #C8C1AF, inset -5px -5px 10px  #E1DAC5;
+	font-size: 15px;
+	transition: 500ms;
+}
+
+button:focus {
+	outline: none;
+}
+
+.bn:hover {
+	color: #ffffff;
+	text-shadow: 0px 0px 10px #f5eeee;
+}
+
+
+
+  .orchid{
+    margin-top: 720px;
+    margin-left: 860px;
+    background: none;
+    box-shadow: 30px 0 30px rgb(147, 141, 141);
+    width: 13.2%;
+    height: 80%;
+    border-radius: 25px;
+    
+   
+  }
+  .rose{
+    margin-top: 720px;
+    margin-left: 460px;
+    background: none;
+    box-shadow: 30px 0 30px rgb(147, 141, 141);
+    width: 13.3%;
+    height: 80%;
+    border-radius: 25px;
+  }
+  .peony{
+    margin-top: 1240px;
+    margin-left: 860px;
+    background: none;
+    box-shadow: 30px 0 30px rgb(147, 141, 141);
+    width: 13.2%;
+    height: 80%;
+    border-radius: 25px;
+  }
+  .tulipp{
+    margin-top: 1240px;
+    margin-left: 460px;
+    background: none;
+    box-shadow: 30px 0 30px rgb(147, 141, 141);
+    width: 13.2%;
+    height: 80%;
+    border-radius: 25px;
+  }
+  .carnationn{
+    margin-top: 1760px;
+    margin-left: 860px;
+    background: none;
+    box-shadow: 30px 0 30px rgb(147, 141, 141);
+    width: 13.2%;
+    height: 80%;
+    border-radius: 25px;
+  }
+  .lily1{
+    margin-top: 1760px;
+    margin-left: 460px;
+    background: none;
+    box-shadow: 30px 0 30px rgb(147, 141, 141);
+    width: 13.2%;
+    height: 80%;
+    border-radius: 25px;
+ }
+
+ /* videos  */
+.vid,.vid1.vid2.vid3.vid4.vid5.vid6.vid7.vid8.vid9.vid10.vid11{
+    width: 100vw;
+    height: 100vh;
+    border-radius: 25px;
+}
+
+/* orchid card */
+.card {
+    box-shadow: #ffffff;
+    background-image: none;
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 1020px;
+    margin-left: 830px;
+    padding-top: 10px;
+    background-size: 60px 70px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .price {
+    color: rgb(44, 39, 39);
+    font-size: 18px;
+    margin-top: 52px;
+    margin-left: 75px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    background:  #E6E8DA;
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px  #E1DAC5, inset -5px -5px 10px #C8C1AF;
+	color: #453d3d;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-top: 95px;
+    margin-left: 55px;
+    margin-right:210px;
+    position: absolute;
+    
+    
+    
+  }
+  
+  
+  .card button:hover {
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px #C8C1AF, inset -5px -5px 10px  #E1DAC5;
+    opacity: 0.7;
+    
+  }
+
+  /* roses card */
+  .card1 {
+    background-image: none;
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+   
+    margin-top: 1020px;
+    margin-left: 430px;
+    padding-top: 10px;
+    background-size: 60px 70px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .price1 {
+    color: rgb(44, 39, 39);
+    font-size: 18px;
+    margin-top: 52px;
+    margin-left: 75px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .card1 button {
+    border: none;
+    outline: 0;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    background:  #E6E8DA;
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px  #E1DAC5, inset -5px -5px 10px #C8C1AF;
+	color: #453d3d;
+    
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-top: 95px;
+    margin-left: 55px;
+    margin-right:220px;
+    position: absolute;
+    
+    
+    
+    
+  }
+  p{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 0px;
+  }
+  
+  .card1 button:hover {
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px #C8C1AF, inset -5px -5px 10px  #E1DAC5;
+    opacity: 0.7;
+  }
+
+  /* peony card */
+  .card2 {
+    background-image: none;
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 1540px;
+    margin-left: 830px;
+    padding-top: 10px;
+    background-size: 60px 70px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .price2 {
+    color: rgb(44, 39, 39);
+    font-size: 18px;
+    margin-top: 52px;
+    margin-left: 75px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .card2 button {
+    border: none;
+    outline: 0;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    background:  #E6E8DA;
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px  #E1DAC5, inset -5px -5px 10px #C8C1AF;
+	color: #453d3d;
+    
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-top: 90px;
+    margin-left: 55px;
+    margin-right:210px;
+    position: absolute;
+    
+    
+    
+    
+  }
+  p{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 0px;
+  }
+  
+  .card2 button:hover {
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px #C8C1AF, inset -5px -5px 10px  #E1DAC5;
+    opacity: 0.7;
+  }
+  /* tulip card */
+  .card3 {
+    background-image: none;
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 1540px;
+    margin-left:  430px;
+    padding-top: 10px;
+    background-size: 60px 70px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .price3 {
+    color: rgb(44, 39, 39);
+    font-size: 18px;
+    margin-top: 52px;
+    margin-left: 75px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .card3 button {
+    border: none;
+    outline: 0;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    background:  #E6E8DA;
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px  #E1DAC5, inset -5px -5px 10px #C8C1AF;
+	color: #453d3d;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-top: 90px;
+    margin-left: 55px;
+    margin-right:220px;
+    position: absolute;
+    
+    
+    
+    
+  }
+  p{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 0px;
+  }
+  
+  .card3 button:hover {
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px #C8C1AF, inset -5px -5px 10px  #E1DAC5;
+    opacity: 0.7;
+  }
+  /* carnation card */
+  .card4 {
+    background-image: none;
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 2060px;
+    margin-left: 830px;
+    padding-top: 10px;
+    background-size: 60px 70px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .price4 {
+    color: rgb(44, 39, 39);
+    font-size: 18px;
+    margin-top: 52px;
+    margin-left: 75px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .card4 button {
+    border: none;
+    outline: 0;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    background:  #E6E8DA;
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px  #E1DAC5, inset -5px -5px 10px #C8C1AF;
+	color: #453d3d;
+    
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-top: 90px;
+    margin-left: 55px;
+    margin-right:200px;
+    position: absolute;
+    
+    
+    
+    
+  }
+  p{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 0px;
+    
+  }
+  
+  .card4 button:hover {
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px #C8C1AF, inset -5px -5px 10px  #E1DAC5;
+    opacity: 0.7;
+  }
+
+  /* lily card  */
+  .card5 {
+    background-image: none;
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 2060px;
+    margin-left:  430px;
+    padding-top: 10px;
+    background-size: 60px 70px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .price5 {
+    color: rgb(44, 39, 39);
+    font-size: 18px;
+    margin-top: 52px;
+    margin-left: 75px;
+    display: flex;
+    position: absolute;
+  }
+  
+  .card5 button {
+    border: none;
+    outline: 0;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    background:  #E6E8DA;
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px  #E1DAC5, inset -5px -5px 10px #C8C1AF;
+	color: #453d3d;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-top: 90px;
+    margin-left: 55px;
+    margin-right:220px;
+    position: absolute;
+    
+    
+    
+    
+  }
+  p{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 0px;
+  }
+  
+  .card5 button:hover {
+    box-shadow: -5px -5px 15px  #E1DAC5, 5px 5px 15px #C8C1AF, inset 5px 5px 10px #C8C1AF, inset -5px -5px 10px  #E1DAC5;
+    opacity: 0.7;
+  }
+
+  /* scroll down arrow */
+  .arrows {
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    left: 78%;
+    margin-left: -30px;
+    bottom: 20px;
+  }
+  
+  .arrows path {
+    stroke: #a2a4a7;
+    fill: transparent;
+    stroke-width: 1px;  
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; 
+  }
+  
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  .arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; 
+  }
+  
+  .arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; 
+  }
+  
+  .arrows path.a3 { 
+    animation-delay:0s;
+    -webkit-animation-delay:0s; 
+  }
+
+  /*  */
+
+  .bv{
+    
+    background-image: none;
+    width: 55%;
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin-top: 650px;
+    margin-left: 0px;
+    border-radius: 15px 50px;
+}
+
+/* the "available class collection" statement and arrows */
+ .bv h1{ 
+    
+
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    display: flex;
+    position: absolute;
+    white-space: nowrap;
+    right: 375px;
+    text-shadow: #000000,#000000,#000000,#000000 ;
+}
+.bv h2{
+    
+    padding-left: 330px;
+    padding-top: 5px;
+}
+
+/* collors list */
+.io ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    
+  }
+  
+.io li {
+    display: inline-block;
+    
+    
+    
+  }
+  .white {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+    
+  }
+  
+.purple {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #382943;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+   
+  }
+  
+  .io .white1,.white2 {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+    
+  }
+  
+  .io .pink,.pink1 {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #d34051;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+  }
+  
+  .io .red {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #a51616;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+  }
+  .io .yellow {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #fff344;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+  }
+  .io .lightPink,.lightPink1 {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #fcdbed;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+  }
+  
+  .io .orange {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #ec923e;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+  }
+  .io .fuchsia {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #d71386;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+  }
+  
+  
+  .io .purple:hover{
+    border: 2px solid #585251;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  .io .white:hover,.white1:hover,.white2:hover{
+    border: 2px solid #585251;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  
+  .io .pink:hover, .pink1:hover{
+    border: 2px solid #585251;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  
+  .io .red:hover{
+    border: 2px solid #585251;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  .io .yellow:hover{
+    border: 2px solid #585251;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  .io .lightPink:hover,.lightPink1:hover{
+    border: 2px solid #585251;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  
+  .io .orange:hover{
+    border: 2px solid #585251;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  .io .fuchsia:hover
+   {
+    border: 2px solid #585251;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+
+  /* 3d model vase */
+model-viewer{
+    height:460px;
+    width:460px;
+    left:-30p;
+    top: 20px;
+    position: absolute;
+   
+}
+    
+    
+    
+
+

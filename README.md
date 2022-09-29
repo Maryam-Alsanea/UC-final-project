@@ -4,30 +4,13 @@
 
 ### اسم الطالب
 
-
+maryam dahham alsanea
 ### اسم المشروع
 
-
+maryam's bouquet 
 # شرح الفكرة
-المشكلة والحلول المطروحة إن وجدت
-
-
+ a flower store
 # الأعمال المستقبلية
-
+adding a "how to take care of each flower guide" videos 
 
 </div>
-
-> Fill out project information in English ⬇️
-### Student Name
-
-
-### Project Name
-
-# Idea
-Problem and solutions if found 
-
-
-# Future Work 
-
-
-

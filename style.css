@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+   
+}
+h1{
+    background-color: url("https://www.transparenttextures.com/patterns/blizzard.png");
+    font-family: 'Dancing Script', cursive; 
+    line-height: 60px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 1100px;
+    font-size: 60px;
+    color: #ffecb2;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0px 0px 0 rgb(230,211,153),
+                 1px 1px 0 rgb(205,186,128),
+                 2px 2px 0 rgb(181,162,104),
+                 3px 3px 0 rgb(156,137,79),
+                 4px 4px 0 rgb(131,112,54),
+                 5px 5px 0 rgb(106,87,29),
+                 6px 6px  0 rgb(81,62,4),
+                 7px 7px 6px rgba(0,0,0,0.6),
+                 7px 7px 1px rgba(0,0,0,0.5),
+                 0px 0px 6px rgba(0,0,0,.2);
+  
+}
+
+
+button{
+    
+    background-color: transparent;
+    border-color: transparent;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 12px ;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    font-weight: 1000;
+    margin-left: 1250px;
+    margin-top: -10px;
+    font-family: 'Dancing Script', cursive; 
+}
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+button {
+ 
+	cursor: pointer;
+	background: #7C6546;
+	border: none;
+	border-radius: 10px;
+	box-shadow: -5px -5px 15px  #60492f, 5px 5px 15px #31281e, inset 5px 5px 10px  #60492f, inset -5px -5px 10px #31281e;
+	color: #ffecb2;
+	font-size: 16px;
+}
+
+
+button:hover {
+	box-shadow: -5px -5px 15px  #60492f, 5px 5px 15px #31281e, inset 5px 5px 10px #31281e, inset -5px -5px 10px  #60492f;
+	font-size: 15px;
+	transition: 500ms;
+}
+
+button:focus {
+	outline: none;
+}
+
+.btn:hover {
+	color: #ffffff;
+	text-shadow: 0px 0px 10px #f5eeee;
+}
+
